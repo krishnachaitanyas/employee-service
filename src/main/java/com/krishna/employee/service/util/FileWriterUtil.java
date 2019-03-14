@@ -13,7 +13,7 @@ import com.jcraft.jsch.Session;
 public class FileWriterUtil {
 	
 	public static String sendFileToRemoteLocation(String fileName) throws Exception{
-		String host = "192.168.127.135";
+		String host = "192.168.127.137";
 		String userName = "krishnacs";
 		//String password = "root123";
 		Properties properties = new Properties();
