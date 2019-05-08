@@ -57,7 +57,8 @@ public class EmployeeDAO {
 		String recordToBeWritten = employee.getId() + "," + employee.getName();
 		outStream.write(recordToBeWritten.getBytes());
 		outStream.close();
-		String status = FileWriterUtil.sendFileToRemoteLocation("employeeRecord.txt");
+		//String status = FileWriterUtil.sendFileToRemoteLocation("employeeRecord.txt");
+		String status = "Done";
 		if("Done".equals(status))
 		return count;
 		else
